@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title> Contacts Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+
+        <div class="wrapper">
+
+            <!-- ============ Main Header - START ============ -->
+
+            <header id="master-header">
+                <div class="top-header">
+
+                    <div class="container">
+
+                        <h1 id="logo">
+                            <a href="index.html">
+                                <img src="img/logo2.png" alt=" Tattoo Studio">
+                            </a>
+                        </h1>
+
+                        <!-- ============ Main Navigation - START ============ -->
+
+                        <a id="nav-toggle" href="#"><span></span></a>
+                        <nav id="nav-menu">
+                            <ul>
+                                <li>
+                                    <a title="About Us 1 Page" href="about-us-1.html"> О нас</a>
+                                   
+                                </li>
+                                <li>
+                                    <a title="Portfolio" href="#">Портфолио</a>
+                                    <ul>
+                                        <li>
+                                            <a title="Classic Portfolio" href="#">Мастер</a>
+                                            <ul>
+                                                <li><a title="Classic Portfolio - 3 Columns" href="portfolio-3col.html">Мастер 1</a></li>
+                                                <li><a title="Classic Portfolio - 4 Columns" href="portfolio-4col.html">Мастер 2</a></li>
+                                                
+                                            </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a title="Journal" href="journal.html">Блог</a>
+                                    <ul>
+                                        <li><a title="Blog" href="blog.html">Blog</a></li>
+                                        <li><a title="Blog Post" href="blog-post.html">Single Post</a></li>
+                                    </ul>
+                                </li>
+                                <li><a title="Faqs &amp; Disclaimers Page" href="faq.html">Полезная информация</a></li>
+                                <li class="selected"><a title="Contacts Page" href="contacts.html">Контакты</a></li>
+                                <li><a title="Appointment Page" href="appointment.html">Напишите нам</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- ============ Main Navigation - END ============ -->
+
+                    </div>
+                </div>
+
+                <h2 id="page-title">Контакты</h2>
+
+            </header>
+
+            <!-- ============ Main Header - END ============ -->
+
+            <div id="main">
+
+                <!-- ============ Contacts Bar - START ============ -->
+
+                <div id="contacts-bar" class="row">
+                    <div class="address col-md-6"><strong> Tattoo Studio Talisman</strong>, Тимирязева 65 Belarus Minsk</div>
+                    <div class="other col-md-6">
+                        <span class="contact"><i class="fa fa-phone"></i>Phone: <strong>+375(29)1234567</strong></span>
+                        <span class="contact"><i class="fa fa-envelope"></i>Email: <a href="mailto:email@domain.com"><strong>test@test.com</strong></a></span>
+                    </div>
+                </div>
+
+                <!-- ============ Contacts Bar - END ============ -->
+
+                <!-- ============ Google Map - START ============ -->
+
+                <div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.4046893619106!2d27.506835315647606!3d53.9245538389446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc569216ea86f%3A0x77dbf8f25aa66649!2sUlitsa%20Timiryazeva%2065%2C%20Minsk!5e0!3m2!1sen!2sby!4v1603311679346!5m2!1sen!2sby" width="1450" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></div>
+
+                <!-- ============ Google Map - END ============ -->
+
+                <div class="section">
+
+                    <div class="content container">
+
+                        <h2 class="focus-title">Вход с лицевой стороны здания</h2>
+
+                        <p>test</p>
+
+                        <!-- ============ Contact Form - START ============ -->
+
+                        <form class="contact-form row" action="mailer/contact.php" method="post">
+                            <div class="col-md-6">
+                                <label><strong>Полное имя*</strong>
+                                    <input class="required" type="text" name="name">
+                                </label>
+                                <label><strong>Email *</strong>
+                                    <input class="required" type="text" name="email">
+                                </label>
+                                <label><strong>Subject</strong>
+                                    <select name="subject">
+                                        <option value="Subject 1">Subject 1</option>
+                                        <option value="Subject 2">Subject 2</option>
+                                        <option value="Subject 3">Subject 3</option>
+                                        <option value="Subject 4">Subject 4</option>
+                                    </select>
+                                </label>
+                            </div>
+                            <div class="col-md-6">
+                                <label><strong>Сообщение</strong>
+                                    <textarea class="required" name="Сообщение"></textarea>
+                                </label>
+                                
+                                <input class="submit btn md" type="submit" name="submit" value="Отправить">
+                            </div>
+                            <input type="hidden" name="form_type" value="contact">
+                        </form>
+
+                        <!-- ============ Contact Form - END ============ -->
+
+                    </div>
+
+                </div>
+
+                <!-- ============ Instagram Banner - START ============ -->
+
+                <a class="instagram-bar" href="#">Посмотрите наши работы в  <strong>Инстаграм</strong>!</a>
+
+                <!-- ============ Instagram Banner - END ============ -->
+
+            </div>
+
+            <!-- ============ Footer - START ============ -->
+
+            <footer class="dark">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="footer-col col-md-4 col-sm-6">
+
+                            <h3 class="focus-title">О нас</h3>
+                            <p><img width="200" class="align-center" src="img/logo2.png" alt=" Tattoo Studio"></p>
+                            <p>Тест</p>
+
+                        </div>
+
+                        <div class="footer-col col-md-4 col-sm-6">
+
+                            <h3 class="focus-title"><i class="fa fa-clock-o"></i>Working Days</h3>
+                            <dl class="working-days">
+                                <dt>Monday</dt>
+                                <dd>10:00 - 19:00</dd>
+                                <dt>Tuesday</dt>
+                                <dd>10:00 - 19:00</dd>
+                                <dt>Wednesday</dt>
+                                <dd>10:00 - 19:00</dd>
+                                <dt>Thursday</dt>
+                                <dd>10:00 - 19:00</dd>
+                                <dt>Friday</dt>
+                                <dd>10:00 - 19:00</dd>
+                                <dt>Saturday</dt>
+                                <dd>10:00 - 19:00</dd>
+                                <dt>Sunday</dt>
+                                <dd>CLOSED</dd>
+                            </dl>
+
+                        </div>
+
+                        <div class="footer-col footer-contacts col-md-4 col-sm-12">
+
+                            <div class="contact-item"><span> Tattoo Studio Talisman</span> <strong>
+                           Тимирязева 65  Belarus Minsk </strong></div>
+                            <div class="contact-item"><span>Phone:</span> <strong>+375(29)1234567</strong></div>
+                            <div class="contact-item"><span>Email:</span> <strong><a href="#">test@test.com</a></strong></div>
+                            <div class="contact-item">
+                                <span>Подпишетесь на нас:</span>
+                                <ul class="social-links">
+                                    <li><a title="Facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a title="Twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a title="Google+" href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a title="Instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="copyright">
+                    &copy; 2020 - <strong> ItBrozers</strong>
+                </div>
+
+            </footer>
+
+            <!-- ============ Footer - END ============ -->
+
+        </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/common.js"></script>
+        <script src="js/config.js"></script>
+        <script src="js/main.js"></script>
+
+        
+        
+
+    </body>
+</html>
